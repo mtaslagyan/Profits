@@ -20,6 +20,11 @@ code {
 
 /* BANNER */
 
+.active-link{
+  padding:10px 0px;
+  border-bottom:solid 2px #70c5eb;
+  border-top:solid 2px #70c5eb;
+}
 .bannerImg{
   background-image: url("images/bannerImg2.jpg");
   background-size: contain;
@@ -68,6 +73,10 @@ code {
 .navbar-logo{
   font-family: 'Dosis', sans-serif;
   font-size:44px;
+  color:#70c5eb;
+  text-decoration: none;
+}
+.navbar-logo:hover{
   color:#70c5eb;
   text-decoration: none;
 }
