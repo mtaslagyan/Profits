@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {Link, NavLink} from 'react-router-dom'
 
 const Navbar = () => {
@@ -11,10 +10,10 @@ const Navbar = () => {
                   Profit<span className="dollarSign">$</span>
                 </Link>
                 <div className="nav-links float-right">
-                  <NavLink className="mx-4" to="/">Home</NavLink>
-                  <NavLink className="mx-4" to="/analysis">Analysis</NavLink>
-                  <NavLink className="mx-4" to="/sessions">Sessions</NavLink>
-                  <NavLink className="mx-4" to="/clients">Clients</NavLink>
+                  <NavLink className="mx-4" to="/" exact activeClassName="active-link">Home</NavLink>
+                  <NavLink className="mx-4" to="/analysis" exact activeClassName="active-link">Analysis</NavLink>
+                  <NavLink className="mx-4" to="/sessions" exact activeClassName="active-link">Sessions</NavLink>
+                  <NavLink className="mx-4" to="/clients" exact activeClassName="active-link">Clients</NavLink>
                 </div>
             </div>
         </nav>
