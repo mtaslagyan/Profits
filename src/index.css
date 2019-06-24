@@ -54,6 +54,12 @@ code {
   font-size:42px;
   color: #70c5eb;
 }
+.steps img{
+  width:70px;
+}
+.step-titles{
+  font-size:24px;
+}
 
 /* NAVBAR */
 
@@ -104,7 +110,7 @@ code {
   text-transform: capitalize;
 }
 .startNowBtn{
-  font-size:40px;
+  font-size:30px;
   border: solid 1px white;
   border-radius:100px;
   padding:15px 30px;
@@ -129,28 +135,9 @@ code {
   /* background: linear-gradient(rgb(245, 245, 245), rgb(255, 255, 255)) */
 }
 
-.step-titles{
-  font-size:36px;
-}
+@media (max-width:767px) {
+  .bannerIntro1, .bannerIntro2{
+    font-size:24px;
 
-/* .step_1{
-  background: rgba(0, 218, 0, 0.9);
-  border-radius:100px;
-  padding:10px;
-  margin-right:15px;
-  margin-left:15px;
-} */
-/* .step_2{
-  background: rgba(0, 145, 255, 0.9);
-  border-radius:100px;
-  padding:10px;
-  margin-right:15px;
-  margin-left:15px;
-} */
-/* .step_3{
-  background: rgba(255, 90, 90, 0.9);
-  border-radius:100px;
-  padding:10px;
-  margin-right:15px;
-  margin-left:15px;
-} */
+}
+}
