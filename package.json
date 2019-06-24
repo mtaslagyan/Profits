@@ -5,6 +5,7 @@
   "dependencies": {
     "chart.js": "^2.8.0",
     "chartkick": "^3.0.2",
+    "dependencies": "0.0.1",
     "jquery": "^3.3.1",
     "moment": "^2.24.0",
     "react": "^16.8.5",
