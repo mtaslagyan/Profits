@@ -18,23 +18,23 @@ class Banner extends Component{
         {/* <h3 className="pt-5">3 Easy Steps</h3> */}
         <div className="container steps">
           <div className="row pt-5">
-            <div className="col-12 col-sm-3 step_1">
+            <div className="col-12 col-md-3 step_1 mb-5 mb-md-0">
               <div>Step 1</div>
               
               <img className="addclientImg" src={addclientImg} alt=""/>
               <div className="step-titles">Add Clients</div> 
             </div>
-            <div className="col-12 col-sm-3 step_2">
+            <div className="col-12 col-md-3 step_2 my-5 my-md-0">
               <div>Step 2</div>
               <img className="addsessionImg" src={addsessionImg} alt=""/>
               <div className="step-titles">Add Sessions</div>
             </div>
-            <div className="col-12 col-sm-3 step_3">
+            <div className="col-12 col-md-3 step_3 my-5 my-md-0">
               <div>Step 3</div>
               <img className="analyzeImg" src={analyzeImg} alt=""/>
               <div className="step-titles">Analyze Income</div>
             </div>
-            <div className="col-12 col-sm-3 mt-5">
+            <div className="col-12 col-md-3 mt-5">
               <Link to="/clients"><button className="startNowBtn btn">Start Now</button></Link>
             </div>
           </div>

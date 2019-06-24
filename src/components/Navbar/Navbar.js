@@ -10,10 +10,10 @@ const Navbar = () => {
                   Profit<span className="dollarSign">$</span>
                 </Link>
                 <div className="nav-links float-right">
-                  <NavLink className="mx-4" to="/" exact activeClassName="active-link">Home</NavLink>
+                  <NavLink className="mr-4" to="/" exact activeClassName="active-link">Home</NavLink>
                   <NavLink className="mx-4" to="/analysis" exact activeClassName="active-link">Analysis</NavLink>
                   <NavLink className="mx-4" to="/sessions" exact activeClassName="active-link">Sessions</NavLink>
-                  <NavLink className="mx-4" to="/clients" exact activeClassName="active-link">Clients</NavLink>
+                  <NavLink className="ml-4" to="/clients" exact activeClassName="active-link">Clients</NavLink>
                 </div>
             </div>
         </nav>

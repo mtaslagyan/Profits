@@ -30,7 +30,8 @@ code {
   background-size: contain;
   background-repeat: no-repeat;
   position:absolute;
-  
+  width:100%;
+  height:300px;
 }
 
 .home{
@@ -136,8 +137,80 @@ code {
 }
 
 @media (max-width:767px) {
+
   .bannerIntro1, .bannerIntro2{
     font-size:24px;
+  }
+  .bannerProfits{
+    font-size:32px;
+    color: #70c5eb;
+  }
+  .bannerIntro{
+    margin-top:20px;
+    margin-bottom:100px;
+  }
+  .bannerImg{
+    height:200px;
+  }
+  .steps{
+    font-size:20px;
+  }
+  .step-titles{
+    font-size:20px;
+  }
+}
+
+
+@media (max-width:492px) {
+  .navbar .nav-links a {
+    color:rgb(34, 34, 34);
+    font-size:14px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+  }
+  .navbar-logo{
+    font-size:30px;
+  }
+}
+
+@media (max-width:425px) {
+
+  .bannerIntro1, .bannerIntro2{
+    font-size:18px;
+  }
+  .bannerProfits{
+    font-size:22px;
+    color: #70c5eb;
+  }
+  .bannerIntro{
+    margin-top:20px;
+    margin-bottom:100px;
+  }
+  .bannerImg{
+    height:200px;
+  }
+  
 
 }
+
+@media (max-width:425px) {
+
+  .navbar .nav-links a {
+    color:rgb(34, 34, 34);
+    font-size:12px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+  }
+  .navbar-logo{
+    font-size:20px;
+  }
+  .nav-links a{
+    margin-left:0;
+  }
+  .navbar{
+    margin-left:0;
+    padding-left:0;
+  }
+
 }
+
